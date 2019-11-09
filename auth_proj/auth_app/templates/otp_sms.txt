@@ -1,0 +1,2 @@
+{{ otp }} is one time password.
+Ref ID: {{id}}

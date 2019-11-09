@@ -1,0 +1,38 @@
+{% extends 'auth_app/state_list.html' %}
+
+
+
+{% block body_block %}
+  <div class="jumbotron">
+<div class="container">
+    <h1>Country Details</h1>
+
+    <table>
+      <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Continent</th>
+        <th>Region</th>
+        <th>Surface area</th>
+        <th>Independence year</th>
+        <th>Population</th>
+        <th>Life expectancy</th>
+        <th>Gnp</th>
+      </tr>
+      <tr>
+        <td>{{country.code}}</td>
+        <td> {{country.code}}</td>
+        <td>{{country.continent}}</td>
+        <td>{{country.region}}</td>
+        <td>{{country.surface_area}}</td>
+        <td>{{country.indepyear}}</td>
+        <td>{{country.population}}</td>
+        <td>{{country.lifeexpectancy}}</td>
+        <td>{{country.gnp}}</td>
+      </tr>
+
+    </table>
+  </div>
+
+</div>
+{% endblock %}
